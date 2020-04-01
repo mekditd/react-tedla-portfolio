@@ -1,0 +1,41 @@
+{
+  "name": "react-tedla-portfolio",
+  "version": "1.0.0",
+  "description": "react-portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mekditd/react-tedla-portfolio.git"
+  },
+  "author": "tedla b",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mekditd/react-tedla-portfolio/issues"
+  },
+  "homepage": "https://github.com/mekditd/react-tedla-portfolio#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-mdl": "^2.1.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
