@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# react-portfolio-starter
+# react-tedla-portfolio
 A React based personal portfolio app using create-react-app and React Router v4.
 
 # Tools
