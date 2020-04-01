@@ -3,89 +3,113 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import database from './skills'
 
 
 class Resume extends Component {
   render() {
-    return(
+    return (
       <div>
         <Grid>
           <Cell col={4}>
-            <div style={{textAlign: 'center'}}>
+            <div style={{ textAlign: 'center' }}>
               <img
                 src="https://avatars1.githubusercontent.com/u/54032716?v=4 "
                 alt="avatar"
-                style={{height: '200px'}}
-                 />
+                style={{ height: '200px' }}
+              />
             </div>
 
-            <h2 style={{paddingTop: '2em'}}>Tedla Betsuan</h2>
-            <h4 style={{color: 'grey'}}>Full Stack Web Developer </h4>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <h2 style={{ paddingTop: '2em' }}>Tedla Betsuan</h2>
+            <h4 style={{ color: 'grey' }}>Full Stack Web Developer </h4>
+            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+            <p>Full-Stack Web Developer with a background in Pharmaceutical Solutions. Excited to leverage Kaizen
+            event skills in the future as part of a quality-driven team in order to build better experiences
+            on the web. Excellent communicator with effective client relationship building skills. Holds a
+               certificate in Full Stack Web Development from the University of Texas at Austin.</p>
+            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
             <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
+            <p>Austin, Texas</p>
             <h5>Phone</h5>
-            <p>(123) 456-7890</p>
+            <p>(512) 318-5042</p>
             <h5>Email</h5>
-            <p>someone@example.com</p>
-            <h5>Web</h5>
-            <p>mywebsite.com</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <p>mekdi.td87@outlook.com</p>
+            {/* <h5>Web</h5>
+            <p>mywebsite.com</p> */}
+            <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
 
 
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-               />
+              startYear={2019}
+              endYear={2020}
+              schoolName="The University of Texas at Austin"
+              schoolDescription="Center for Professional Education (CPE)"
+            />
 
-               <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName="My 2nd University"
-                 schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                  />
-                <hr style={{borderTop: '3px solid #e22947'}} />
+            <Education
+              //  startYear={2007}
+              endYear={2018}
+              schoolName="Champions School of Real Estate"
+              schoolDescription="Real Estate License Programs"
+            />
 
-              <h2>Experience</h2>
+            <Education
+              startYear={2010}
+              endYear={2014}
+              schoolName="Austin Community College"
+              schoolDescription="Engineering"
+            />
+            <Education
+              startYear={1998}
+              endYear={2002}
+              schoolName="Addis Ababa University"
+              schoolDescription="Law"
+            />
+
+            <hr style={{ borderTop: '3px solid #e22947' }} />
+
+            <h2>Work Experience</h2>
+            <p>Worked with three major FDA monitored pharmaceutical companies as Solution Production Specialist where
+            I got involved in the manufacturing process of an Intravenous Drug Solutions.
+            Participated in the company’s Kaizen Events working with a group of employees to increase productivity
+              and safety while maintaining continuous improvement.</p>
+            <Experience
+              startYear={2017}
+              endYear={`present`}
+              jobName="Solutions Specialist"
+              jobDescription="Specialist at manufacturing process of an Intravenous Drug Solutions"
+              companyName="ICU Medical"
+            />
 
             <Experience
+              startYear={2015}
+              endYear={2017}
+              jobName="Solutions Specialist"
+              jobDescription="Specialist at manufacturing process of an Intravenous Drug Solutions"
+              companyName="Pfizer"
+            />
+            <Experience
               startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-              />
+              endYear={2015}
+              jobName="Solutions Specialist"
+              jobDescription="Specialist at manufacturing process of an Intravenous Drug Solutions"
+              companyName="Hospira"
+            />
+            <hr style={{ borderTop: '3px solid #e22947' }} />
+            <h2>Technical Skills</h2>
+            <Skills
+              skill="Languages: HTML5, CSS, JavaScript, Node.js, jQuery, APIs, JSON, AJAx, React.js, Tailwind, SaaS, SCSS"
+            />
 
-              <Experience
-                startYear={2012}
-                endYear={2016}
-                jobName="Second Job"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                />
-              <hr style={{borderTop: '3px solid #e22947'}} />
-              <h2>Skills</h2>
-              <Skills
-                skill="javascript"
-                progress={100}
-                />
-                <Skills
-                  skill="HTML/CSS"
-                  progress={80}
-                  />
-                  <Skills
-                    skill="NodeJS"
-                    progress={50}
-                    />
-                    <Skills
-                      skill="React"
-                      progress={25}
-                      />
+            <Skills
+              skill="Database: MySQL, MongoDB"
+            />
+            <Skills
+              skill="Others: Heroku, Git, GitHub, Express.js, Express-session, MVC, Writing tests, Sessions, Templating Engines, Responsive Design, Security and Session Storage, User Authentication"
+            />
 
 
           </Cell>
