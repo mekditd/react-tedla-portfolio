@@ -8,13 +8,17 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Tedla B</h2>
+            <h2>Tedla Betsuan</h2>
             <img
-              src="./Tedla.jpg"
+              src="https://avatars1.githubusercontent.com/u/54032716?v=4"
               alt="avatar"
               style={{height: '250px'}}
                />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
+              Full-Stack Web Developer with a background in Pharmaceutical Solutions. Excited to leverage Kaizen
+               event skills in the future as part of a quality-driven team in order to build better experiences 
+               on the web. Excellent communicator with effective client relationship building skills. Holds a 
+               certificate in Full Stack Web Development from the University of Texas at Austin. </p>
 
           </Cell>
           <Cell col={6}>
@@ -26,28 +30,28 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                    (123) 456-7890
+                    (512) 318-5042
                   </ListItemContent>
                 </ListItem>
 
-                <ListItem>
+                {/* <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-fax" aria-hidden="true"/>
                     (123) 456-7890
                   </ListItemContent>
-                </ListItem>
+                </ListItem> */}
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
-                    someone@example.com
+                    mekdi.td87@outlook.com
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-skype" aria-hidden="true"/>
-                    MySkypeID
+                    <a href = {'https://www.linkedin.com/in/tedla-betsuan-116134190/'}> My LinkedIn Link </a>
                   </ListItemContent>
                 </ListItem>
 
