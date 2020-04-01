@@ -3,7 +3,6 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
-import database from './skills'
 
 
 class Resume extends Component {
@@ -22,12 +21,16 @@ class Resume extends Component {
 
             <h2 style={{ paddingTop: '2em' }}>Tedla Betsuan</h2>
             <h4 style={{ color: 'grey' }}>Full Stack Web Developer </h4>
+
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+
             <p>Full-Stack Web Developer with a background in Pharmaceutical Solutions. Excited to leverage Kaizen
             event skills in the future as part of a quality-driven team in order to build better experiences
             on the web. Excellent communicator with effective client relationship building skills. Holds a
                certificate in Full Stack Web Development from the University of Texas at Austin.</p>
+
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+
             <h5>Address</h5>
             <p>Austin, Texas</p>
             <h5>Phone</h5>
@@ -36,11 +39,13 @@ class Resume extends Component {
             <p>mekdi.td87@outlook.com</p>
             {/* <h5>Web</h5>
             <p>mywebsite.com</p> */}
+
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+
           </Cell>
+
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
-
 
             <Education
               startYear={2019}
@@ -72,10 +77,12 @@ class Resume extends Component {
             <hr style={{ borderTop: '3px solid #e22947' }} />
 
             <h2>Work Experience</h2>
+
             <p>Worked with three major FDA monitored pharmaceutical companies as Solution Production Specialist where
             I got involved in the manufacturing process of an Intravenous Drug Solutions.
             Participated in the company’s Kaizen Events working with a group of employees to increase productivity
               and safety while maintaining continuous improvement.</p>
+
             <Experience
               startYear={2017}
               endYear={`present`}
@@ -108,9 +115,9 @@ class Resume extends Component {
               skill="Database: MySQL, MongoDB"
             />
             <Skills
-              skill="Others: Heroku, Git, GitHub, Express.js, Express-session, MVC, Writing tests, Sessions, Templating Engines, Responsive Design, Security and Session Storage, User Authentication"
+              skill="Others: Heroku, Git, GitHub, Express.js, Express-session, MVC, Writing tests, Sessions, 
+                    Templating Engines, Responsive Design, Security and Session Storage, User Authentication"
             />
-
 
           </Cell>
         </Grid>
