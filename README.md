@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # react-tedla-portfolio
 A React based personal portfolio app using create-react-app and React Router v4.
 
-# Tools
+## Tools
 * create-react-app cli
 * React MDL material design
 * React Router v4
