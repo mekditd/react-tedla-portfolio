@@ -19,7 +19,7 @@ class About extends Component {
           skills. Holds a certificate in Full Stack Web Development from the University of Texas at Austin. 
         </p>
         <p >
-            Worked with three major FDA monitored pharmaceutical companies as Solution Production <br />
+            Worked with three major FDA monitored pharmaceutical companies as a Solution Production <br />
           Specialist where I got involved in the manufacturing process of an Intravenous Drug <br />
           Solutions. Participated in the company’s Kaizen Events working with a group of employees <br />
           to increase productivity and safety while maintaining continuous improvement. 
